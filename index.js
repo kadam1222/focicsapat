@@ -17,7 +17,7 @@ for(let i=0;i<11;i++){
 
     drop.addEventListener('dragover',(event)=>{
         event.preventDefault();
-        drop.style.backgroundColor = 'gray';
+        drop.style.backgroundColor = 'gray'
         console.log("Elem fölött")
     })
     drop.addEventListener('dragleave',()=>{

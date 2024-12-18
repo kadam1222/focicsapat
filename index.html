@@ -17,7 +17,8 @@
             height: 160px;
             width: 140px;
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 35px;
+            margin-top: 15px;
         }
         #csapat{
             border: 1px solid black;
@@ -26,11 +27,11 @@
             display: flex;
         }
         #jatekter{
-            height: 250px;
+            height: 600px;
             background-image: url("img/field.png");
             background-repeat: no-repeat;
             background-size: cover;
-            width: 95%;
+            width: 1000px;
             margin-top: 75px;
             margin-left: auto;
             margin-right: auto;
@@ -39,7 +40,7 @@
             height: 160px;
             width: 140px;
         }
-        #dropzone{
+        .dropzone{
             height: 160px;
             width: 140px;
             background: (1,50,32,0.3);
@@ -51,54 +52,54 @@
     <h1>Liverpool Fc csapata</h1>
     <div id="csapat">
         <div class="kapusok">
-            <div class="jatekosok" draggable="true">               
-                <img src="img/alisson.png">
+            <div class="jatekosok" draggable="true" id="alisson">               
+                <img src="img/alisson.png" draggable="false">
                 Alisson Becker
             </div>
         </div>
         <div class="hátvédek">
-            <div class="jatekosok" draggable="true">               
-                <img src="img/vandijk.png">
+            <div class="jatekosok" draggable="true" id="virgil">               
+                <img src="img/vandijk.png"draggable="false">
                 Virgil van Dijk
             </div>
-            <div class="jatekosok" draggable="true">
-                <img src="img/gomez.png">
+            <div class="jatekosok" draggable="true" id="joe">
+                <img src="img/gomez.png"draggable="false">
                 Joe Gomez
             </div>
-            <div class="jatekosok" draggable="true">
-                <img src="img/robi.png">
+            <div class="jatekosok" draggable="true" id="andrew">
+                <img src="img/robi.png"draggable="false">
                 Andrew Robertson
             </div>
-            <div class="jatekosok" draggable="true">
-                <img src="img/arnold.png">
+            <div class="jatekosok" draggable="true" id="trent">
+                <img src="img/arnold.png"draggable="false">
                 Trent Alexander Arnold
             </div>
         </div>
         <div class="középpálya">
-            <div class="jatekosok" draggable="true">
-                <img src="img/szobo.png">
+            <div class="jatekosok" draggable="true" id="szoboszai">
+                <img src="img/szobo.png"draggable="false">
                 Szoboszai Dominik
             </div>
-            <div class="jatekosok" draggable="true">
-                <img src="img/mac.png">
+            <div class="jatekosok" draggable="true" id="macallister">
+                <img src="img/mac.png"draggable="false">
                 Alexis Mac Allister
             </div>
-            <div class="jatekosok" draggable="true">
-                <img src="img/curtis.png">
+            <div class="jatekosok" draggable="true" id="curtis">
+                <img src="img/curtis.png"draggable="false">
                 Curtis Jones
             </div>              
         </div>
         <div class="csatársor">
-            <div class="jatekosok" draggable="true">
-                <img src="img/kopasz.png">
+            <div class="jatekosok" draggable="true" id="salah">
+                <img src="img/kopasz.png"draggable="false">
                 Mohamed Salah
             </div>
-            <div class="jatekosok" draggable="true">
-                 <img src="img/nyunyo.png" alt="">
+            <div class="jatekosok" draggable="true" id="darwin">
+                 <img src="img/nyunyo.png" draggable="false">
                 Darwin Nunez
             </div>
-            <div class="jatekosok" draggable="true">
-                 <img src="img/didi.png">
+            <div class="jatekosok" draggable="true" id="dias">
+                 <img src="img/didi.png"draggable="false">
                 Luis Dias
             </div>
         </div>

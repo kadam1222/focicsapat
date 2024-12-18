@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Focicsapat</title>
+    <script src="index.js" defer></script>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/dynamic-gradient-football-background_23-2149007789.jpg?t=st=1734434997~exp=1734438597~hmac=25585c1061b379061999257d4b9335bac7c4d895ca1236ad862e62ad5a6652ae&w=1380);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+        #csapat{
+            border: 1px solid black;
+            opacity: 0.2;
+            background-color: gainsboro;
+        }
+        .jatekos{
+            height: 60px;
+            width: 40px;
+        }
+        #jatekter{
+            background-color: red;
+            height: 250px;
+            display: flex;
+        }
+        .dropzone{
+            height: 40px;
+            width: 40px;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Liverpool Fc csapata</h1>
+    <div id="csapat">
+        <div class="kapusok">
+            <div class="jatekosok" draggable="true" id="alisson">Alisson Becker</div>
+        </div>
+        <div class="hátvédek">
+            <div class="jatekosok" draggable="true" id="virgil">Virgil van Dijk</div>
+            <div class="jatekosok" draggable="true" id="joe">Joe Gomez</div>
+            <div class="jatekosok" draggable="true" id="andrew">Andrew Robertson</div>
+            <div class="jatekosok" draggable="true" id="trent">Trent Alexander Arnold</div>
+        </div>
+        <div class="középpálya">
+            <div class="jatekosok" draggable="true" id="szoboszai">Szoboszai Dominik</div>
+            <div class="jatekosok" draggable="true" id="macallister">Alexis Mac Allister</div>
+            <div class="jatekosok" draggable="true" id="curtis">Curtis Jones</div>              
+        </div>
+        <div class="csatársor">
+            <div class="jatekosok" draggable="true" id="salah">Mohamed Salah</div>
+            <div class="jatekosok" draggable="true" id="darwin"> Darwin Nunez</div>
+            <div class="jatekosok" draggable="true" id="dias"> Luis Dias</div>
+        </div>
+    </div>
+    <div id="jatekter">
+
+    </div>
 </body>
 </html>

@@ -1,11 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js" defer></script>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/dynamic-gradient-football-background_23-2149007789.jpg?t=st=1734434997~exp=1734438597~hmac=25585c1061b379061999257d4b9335bac7c4d895ca1236ad862e62ad5a6652ae&w=1380);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+        .jatekosok{
+            height: 162.67px;
+            width: 142.67px;
+            display: block;
+            margin-bottom: 35px;
+            
+        }
+        #csapat{
+            border: 1px solid black;
+            background: rgba(76, 175, 80, 0.2);
+            justify-content: space-evenly;
+            display: flex;
+            height: auto;
+        }
+        #jatekter{
+            height: 1000px;
+            background-image: url("img/field.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1700px;
+            margin-top: 75px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+        }
+        img{
+            height: 160px;
+            width: 140px;
+        }
+        .dropzone{
+            height: 160px;
+            width: 140px;
+            background: rgba(1,50,32, 0.5);
+            
+            
+        }
+        #hely0{
+           margin-left: 50px;
+           margin-top: 25%;
+        }
+        #hely1{
+           margin-left: 20px;
+           margin-top: 60px;
+        }
+        #hely2{
+           margin-left: -145px;
+           margin-top: 260px;
+        }
+        #hely3{
+           margin-left: -140px;
+           margin-top: 570px;
+        }
+        #hely4{
+           margin-left: -145px;
+           margin-top: 790px;
+        }
+        #hely5{
+           margin-left: 130px;
+           margin-top: 200px;
+        }
+        #hely6{
+           margin-left: -20px;
+           margin-top: 400px;
+        }
+        #hely7{
+           margin-left: -270px;
+           margin-top: 650px;
+        }
+        #hely8{
+           margin-left: 400px;
+           margin-top: 200px;
+        }
+        #hely9{
+           margin-left: -100px;
+           margin-top: 400px;
+        }
+        #hely10{
+           margin-left: -180px;
+           margin-top: 630px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Liverpool Fc csapata</h1>
+    <div id="csapat">
+        <div class="kapusok">
+            <h2>Kapus</h2>
+            <div class="jatekosok" draggable="true" id="alisson">               
+                <img src="img/alisson.png" draggable="false">
+                
+            </div>
+        </div>
+        <div class="hátvédek">
+            <h2>hátvédek</h2>
+            <div class="jatekosok" draggable="true" id="virgil">               
+                <img src="img/vandijk.png"draggable="false">
+                Virgil van Dijk
+            </div>
+            <div class="jatekosok" draggable="true" id="joe">
+                <img src="img/gomez.png"draggable="false">
+                Joe Gomez
+            </div>
+            <div class="jatekosok" draggable="true" id="andrew">
+                <img src="img/robi.png"draggable="false">
+                Andrew Robertson
+            </div>
+            <div class="jatekosok" draggable="true" id="trent">
+                <img src="img/arnold.png"draggable="false">
+                Trent Alexander 
+            </div>
+        </div>
+        <div class="középpálya">
+            <h2>Középpályás</h2>
+            <div class="jatekosok" draggable="true" id="szoboszai">
+                <img src="img/szobo.png"draggable="false">
+                Szoboszai Dominik
+            </div>
+            <div class="jatekosok" draggable="true" id="macallister">
+                <img src="img/mac.png"draggable="false">
+                Alexis Mac 
+            </div>
+            <div class="jatekosok" draggable="true" id="curtis">
+                <img src="img/curtis.png"draggable="false">
+                Curtis Jones
+            </div>              
+        </div>
+        <div class="csatársor">
+            <h2>Csatárok</h2>
+            <div class="jatekosok" draggable="true" id="salah">
+                <img src="img/kopasz.png"draggable="false">
+                Mohamed Salah
+            </div>
+            <div class="jatekosok" draggable="true" id="darwin">
+                 <img src="img/nyunyo.png" draggable="false">
+                Darwin Nunez
+            </div>
+            <div class="jatekosok" draggable="true" id="dias">
+                 <img src="img/didi.png"draggable="false">
+                Luis Dias
+            </div>
+        </div>
+    </div>
+    <div id="jatekter">
+        
+    </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 jatekosok = document.querySelectorAll('.jatekosok');
-let jatekter = document.getElementById("jatekter");
-
+;
+let jatekter = document.getElementById("jatekter")
 
 jatekosok.forEach(jatekosok => {
     jatekosok.addEventListener('dragstart',(event) =>{
@@ -11,7 +11,7 @@ jatekosok.forEach(jatekosok => {
 
 for(let i=0;i<11;i++){
     let drop = document.createElement("div");
-    drop.id = i;
+    drop.id = "hely"+i;
     drop.classList="dropzone";
     jatekter.appendChild(drop);
 
